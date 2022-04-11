@@ -1333,6 +1333,23 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+/* hyperlink style */
+	a {
+		-moz-transition: border-bottom-color 0.25s ease-in-out;
+		-webkit-transition: border-bottom-color 0.25s ease-in-out;
+		-ms-transition: border-bottom-color 0.25s ease-in-out;
+		transition: border-bottom-color 0.25s ease-in-out;
+		text-decoration: none;
+		color: #777777;
+		border-bottom: dotted 1px;
+	}
+
+		a:hover {
+			text-decoration: none;
+			border-bottom-color: transparent;
+		}
+
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
